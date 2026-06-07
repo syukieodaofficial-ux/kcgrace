@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC Grace O. Bandoy | Youth Leader & Public Servant</title>
+    <meta name="description" content="KC Grace O. Bandoy — youth leader, public servant, and advocate for community development. Portfolio showcasing leadership, programs, and contact information.">
+    <meta name="theme-color" content="#001233">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23001233'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='%23D4AF37' font-family='Playfair Display, serif'%3EKC%3C/text%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-slate-200 overflow-x-hidden">
+    <a class="sr-only focus:not-sr-only absolute top-4 left-4 bg-[#001233] text-[#D4AF37] px-3 py-2 rounded-md z-50" href="#main">Skip to content</a>
+    <div class="scroll-progress" id="scrollBar"></div>
+
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation" class="fixed w-full z-50 glass py-5 px-6 md:px-12 flex justify-between items-center border-b border-white/5">
+        <div class="text-2xl font-bold tracking-tighter">
+            <span class="text-[#D4AF37]">KC</span> <span class="font-light text-slate-400">BANDOY</span>
+        </div>
+        <button id="navToggle" aria-expanded="false" aria-controls="mobileMenu" class="md:hidden p-2 rounded-md glass">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#D4AF37]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div id="mobileMenu" class="absolute top-full left-0 right-0 bg-[#020617]/80 glass md:hidden hidden px-6 py-4 border-t border-white/5">
+            <div class="flex flex-col space-y-3 text-sm font-medium uppercase tracking-widest">
+                <a href="#home" class="hover:text-[#D4AF37] transition">Home</a>
+                <a href="#about" class="hover:text-[#D4AF37] transition">About</a>
+                <a href="https://www.facebook.com/profile.php?id=61581987389724&sk=photos_by" target="_blank" rel="noopener noreferrer" class="hover:text-[#D4AF37] transition">Gallery</a>
+                <a href="#contact" class="px-4 py-2 btn-premium text-blue-900 rounded-full font-bold transition">Contact</a>
+            </div>
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+            <a href="#home" class="hover:text-[#D4AF37] transition">Home</a>
+            <a href="#about" class="hover:text-[#D4AF37] transition">About</a>
+            <a href="https://www.facebook.com/profile.php?id=61581987389724&sk=photos_by" target="_blank" rel="noopener noreferrer" class="hover:text-[#D4AF37] transition">Gallery</a>
+            <a href="#contact" class="px-6 py-2 btn-premium text-blue-900 rounded-full font-bold transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main" role="main">
+    <section id="home" class="min-h-screen flex items-center pt-20 px-6 md:px-24">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-[#D4AF37] font-semibold tracking-[0.4em] text-sm uppercase mb-6">Sangguniang Kabataan Chairperson</h2>
+                <h1 class="text-6xl md:text-8xl font-bold mb-8 leading-tight tracking-tight text-white">
+                    Empowering Youth, <br>
+                    <span class="text-[#D4AF37] italic">Inspiring Change.</span>
+                </h1>
+                <p class="text-xl text-slate-400 mb-10 max-w-lg leading-relaxed font-light">
+                    Hello! I am KC Grace O. Bandoy, a dedicated leader, aspiring educator, and passionate advocate for youth empowerment and community development.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#about" class="px-10 py-4 btn-premium text-blue-900 rounded-lg font-bold transition">View My Journey</a>
+                    <a href="#contact" class="px-10 py-4 border border-white/10 rounded-lg font-bold hover:bg-white/5 transition backdrop-blur-sm">Contact Me</a>
+                </div>
+            </div>
+            <div class="relative" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="w-full h-[550px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative z-10 group">
+                    <img src="https://i.ibb.co/zhJLtBjc/dc9ccb31-6c8d-4809-9329-6a78d402145e.jpg" alt="KC Grace O. Bandoy" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-[#D4AF37]/20 blur-3xl rounded-full -z-10"></div>
+                <div class="absolute -top-6 -right-6 w-48 h-48 border border-[#D4AF37]/20 rounded-full -z-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="py-24 px-6 md:px-24">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass p-12 rounded-3xl group hover:border-[#D4AF37]/40 transition-all duration-500" data-aos="fade-up">
+                <div class="w-16 h-16 bg-[#D4AF37]/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="eye" class="w-8 h-8 text-[#D4AF37]"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Our Vision</h3>
+                <p class="text-slate-400 italic leading-relaxed text-lg">"To create a progressive, educated, and empowered youth sector that actively contributes to community growth and nation-building."</p>
+            </div>
+            <div class="glass p-12 rounded-3xl group hover:border-[#D4AF37]/40 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-[#D4AF37]/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="target" class="w-8 h-8 text-[#D4AF37]"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+                <p class="text-slate-400 italic leading-relaxed text-lg">"To lead with integrity, serve with compassion, and inspire the next generation through meaningful programs and community engagement."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 md:px-24 bg-white/5">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Personal Profile</h2>
+                <div class="w-24 h-1 gold-gradient mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-16">
+                <div data-aos="fade-right">
+                    <h3 class="text-3xl font-bold mb-8 text-[#D4AF37] tracking-tight">Biography</h3>
+                    <p class="text-slate-400 leading-relaxed mb-8 text-lg">
+                        KC Grace O. Bandoy is a young and dedicated leader currently serving as a Sangguniang Kabataan Chairperson in Centro, Sibulan, Sta. Cruz, Davao del Sur. As a 2nd Year Bachelor of Secondary Education major in English student, she combines academic excellence with public service.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 glass rounded-xl">
+                            <span class="text-xs text-gold uppercase block mb-1">Nationality</span>
+                            <span class="font-bold">Filipino</span>
+                        </div>
+                        <div class="p-4 glass rounded-xl">
+                            <span class="text-xs text-gold uppercase block mb-1">Religion</span>
+                            <span class="font-bold">Alliance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" data-aos="fade-left">
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-[#D4AF37]/20 rounded-lg text-[#D4AF37]"><i data-lucide="calendar"></i></div>
+                        <div><p class="text-xs text-slate-400">Birth Date</p><p class="font-semibold">March 25, 2005</p></div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-[#D4AF37]/20 rounded-lg text-[#D4AF37]"><i data-lucide="ruler"></i></div>
+                        <div><p class="text-xs text-slate-400">Height / Weight</p><p class="font-semibold">5'2" / 51kg</p></div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-[#D4AF37]/20 rounded-lg text-[#D4AF37]"><i data-lucide="map-pin"></i></div>
+                        <div><p class="text-xs text-slate-400">Address</p><p class="font-semibold">Centro, Sibulan, Davao del Sur</p></div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-[#D4AF37]/20 rounded-lg text-[#D4AF37]"><i data-lucide="book-open"></i></div>
+                        <div><p class="text-xs text-slate-400">Education</p><p class="font-semibold">BSEd English — Ongoing</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume section removed per request -->
+
+    <!-- Skills Section -->
+    <section class="py-20 px-6 md:px-24">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4">Core Competencies</h2>
+            <p class="text-[#D4AF37] uppercase tracking-widest text-sm">Professional Skills & Expertise</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-8">
+            <div data-aos="fade-up">
+                <div class="flex justify-between mb-2"><span class="font-medium">Leadership</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="flex justify-between mb-2"><span class="font-medium">Public Speaking</span><span>92%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="flex justify-between mb-2"><span class="font-medium">English Proficiency</span><span>96%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 96%"></div></div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="flex justify-between mb-2"><span class="font-medium">Community Development</span><span>94%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 94%"></div></div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="flex justify-between mb-2"><span class="font-medium">Communication Skills</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="flex justify-between mb-2"><span class="font-medium">Project Management</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="flex justify-between mb-2"><span class="font-medium">Team Collaboration</span><span>96%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 96%"></div></div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="flex justify-between mb-2"><span class="font-medium">Teaching Skills</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="py-20 px-6 md:px-24 bg-white/5">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="glass p-6 rounded-2xl text-center hover:border-[#D4AF37] transition duration-500" data-aos="flip-left">
+                <div class="text-3xl mb-3">🇵🇭</div>
+                <h4 class="font-bold">Cebuano</h4>
+            </div>
+            <div class="glass p-6 rounded-2xl text-center hover:border-[#D4AF37] transition duration-500" data-aos="flip-left" data-aos-delay="100">
+                <div class="text-3xl mb-3">🇺🇸</div>
+                <h4 class="font-bold">English</h4>
+            </div>
+            <div class="glass p-6 rounded-2xl text-center hover:border-[#D4AF37] transition duration-500" data-aos="flip-left" data-aos-delay="200">
+                <div class="text-3xl mb-3">🇵🇭</div>
+                <h4 class="font-bold">Filipino</h4>
+            </div>
+            <div class="glass p-6 rounded-2xl text-center hover:border-[#D4AF37] transition duration-500" data-aos="flip-left" data-aos-delay="300">
+                <div class="text-3xl mb-3">🏔️</div>
+                <h4 class="font-bold">Bagobo Tagabawa</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Updates Section -->
+    <section id="latest-updates" class="py-20 px-6 md:px-24 bg-white/3">
+        <div class="max-w-6xl mx-auto" data-aos="fade-up">
+            <div class="text-center mb-8">
+                <h2 class="text-5xl font-bold mb-2">Latest Updates</h2>
+                <p class="text-slate-300 max-w-2xl mx-auto">Stay connected — catch the newest posts, photos, announcements, and events from our Facebook page without leaving this site.</p>
+            </div>
+
+            <div class="updates-card glass rounded-3xl overflow-hidden p-6 md:p-8">
+                <div class="grid md:grid-cols-3 gap-6 items-start">
+                    <div class="md:col-span-2" id="fbFeedContainer">
+                        <div id="fb-root"></div>
+                        <div class="feed-wrapper rounded-2xl overflow-hidden border border-white/5 shadow-lg" aria-label="Facebook page feed">
+                            <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61581987389724" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/profile.php?id=61581987389724" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61581987389724">Facebook</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-1 flex flex-col justify-between">
+                        <div class="p-4 rounded-2xl bg-[#001233]/50 border border-white/5">
+                            <h3 class="text-xl font-semibold mb-3">Follow & Share</h3>
+                            <p class="text-slate-400 mb-4">Support our page to get real-time updates and help spread the word.</p>
+                            <div class="space-y-3">
+                                <button id="followBtn" class="follow-btn w-full py-3 rounded-lg font-semibold">Follow on Facebook</button>
+                                <button id="shareBtn" class="share-btn w-full py-3 rounded-lg font-semibold">Share This Page</button>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 p-4 rounded-2xl bg-[#020617] border border-white/5 text-slate-400 text-sm">
+                            <strong>Pro tip:</strong> If the feed doesn't load, click "Follow" to view the page directly on Facebook.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 md:px-24">
+        <div class="glass max-w-3xl mx-auto rounded-3xl overflow-hidden">
+            <div class="p-12 blue-gradient text-slate-200">
+                <h2 class="text-3xl font-bold mb-6 text-center">Let's Connect</h2>
+                <p class="mb-8 text-center">Let's work together in building a stronger and more empowered youth community.</p>
+                <div class="space-y-4">
+                    <h3 class="font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-4 text-left">
+                        <div class="flex items-center space-x-4"><i data-lucide="mail" class="text-gold"></i><a href="mailto:bandoykc6@gmail.com" class="underline">bandoykc6@gmail.com</a></div>
+                        <div class="flex items-center space-x-4"><i data-lucide="phone" class="text-gold"></i><a href="tel:+639518182771" class="underline">0951 818 2771</a></div>
+                        <div class="mt-4"><a href="https://www.facebook.com/profile.php?id=61581987389724" target="_blank" class="underline">Facebook Profile</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 text-center">
+        <p class="italic text-slate-400 mb-6 px-4">"The future belongs to those who prepare for it today through leadership, service, and education."</p>
+        
+        <div class="mb-8 text-slate-400 px-6">
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-sm font-medium">
+                <a href="mailto:bandoykc6@gmail.com" class="flex items-center hover:text-[#D4AF37] transition duration-300">
+                    <i data-lucide="mail" class="w-4 h-4 mr-2 text-[#D4AF37]"></i> bandoykc6@gmail.com
+                </a>
+                <div class="flex items-center">
+                    <i data-lucide="phone" class="w-4 h-4 mr-2 text-[#D4AF37]"></i> 0951 818 2771
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="https://www.facebook.com/profile.php?id=61581987389724" target="_blank" class="w-12 h-12 glass flex items-center justify-center rounded-full hover:bg-[#D4AF37] hover:text-[#001233] transition-all duration-300" title="Facebook"><img src="https://scontent.fdvo5-1.fna.fbcdn.net/v/t39.30808-6/236770504_169249128633267_6719350668810677611_n.png?stp=dst-png&cstp=mx1024x1024&ctp=s1024x1024&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGjrpPpu_gHADFq75J1IMo3qiHOp0Spwt6qIc6nRKnC3ieIX4xw0-1dzumZudCWU11fgNlajCBDMdVwWtiqqRYX&_nc_ohc=Wdu8s_9XMM8Q7kNvwGBUA-0&_nc_oc=AdqOs7fhfGXnxZr21FTspE1wwscMYjtJrzu9US_adTe5Ugez61WV71U6rrFR2nKD-4U&_nc_zt=23&_nc_ht=scontent.fdvo5-1.fna&_nc_gid=wOZWRztEnwXR_pj4IUSC_g&_nc_ss=7b2a8&oh=00_Af-oVmPEtjx__hcrjmEh-Mg9M48yoRZPfQpk-6YzhggdWA&oe=6A29EE5C" class="w-6 h-6 object-contain" alt="Facebook"></a>
+            <a href="mailto:bandoykc6@gmail.com" class="w-12 h-12 glass flex items-center justify-center rounded-full hover:bg-[#D4AF37] hover:text-[#001233] transition-all duration-300" title="Gmail"><i data-lucide="mail" class="w-6 h-6"></i></a>
+        </div>
+        <p class="text-xs text-slate-500">&copy; <span id="currentYear"></span> KC Grace O. Bandoy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="main.js"></script>
+    <script src="ai-assistant.js"></script>
+</body>
+</html>
